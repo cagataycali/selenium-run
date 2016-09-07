@@ -9,6 +9,7 @@ program
 .parse(process.argv);
 
 if (program.run) {
+  console.log('Selenium runned');
   runner.run();
 } else if (program.kill) {
   runner.kill()

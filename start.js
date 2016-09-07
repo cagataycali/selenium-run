@@ -5,4 +5,3 @@ var async = require('async');
 
 E(`java -jar ${seleniumServer.path}`)
   .catch(function (err)  {console.log('Doesn\'t runned.')})
-console.log('Selenium runned');
