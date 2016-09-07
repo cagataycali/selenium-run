@@ -9,6 +9,18 @@
   "bin": {
     "selenium": "./cli.js"
   },
+  "keywords": [
+    "selenium",
+    "selenium webdriver run",
+    "webdriver run cli",
+    "selenium headless",
+    "run webdriver in cli",
+    "run cli selenium",
+    "run selenium",
+    "selenium server cli",
+    "start selenium in cli",
+    "selenium in cli"
+  ],
   "author": "Çağatay Çalı",
   "license": "ISC",
   "dependencies": {
