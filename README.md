@@ -22,4 +22,7 @@ runner.kill()
 ```
 npm i -g selenium-run
 ```
-# Hi
+
+Maintenance & Development [Çağatay Çalı](http://github.com/cagataycali)
+
+Made with :heart:
