@@ -15,8 +15,15 @@ module.exports = {
         .catch(function (err) {reject(err);})
     });
   },
-  run: function run() {
+  background: function run() {
     var options = { foo: 'bar' };
     background.start('start.js', options);
+  },
+  run: function run() {
+    return new Promise(function(resolve, reject) {
+      E(`java -jar ${seleniumServer.path}`)
+        .then((value) => {resolve('Runned')})
+        .catch((err) =>  {reject('Doesn\'t runned.')})
+    });
   }
 }
