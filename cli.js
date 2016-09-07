@@ -10,12 +10,12 @@ program
 .parse(process.argv);
 
 if (program.background) {
-  runner.background()
-    .then((value) => {console.log(value);})
-    .catch((err) => {console.log(err);})
+  runner.background();
 } else if (program.run) {
   console.log('Selenium runned');
-  runner.run();
+  runner.run()
+    .then((value) => {console.log(value);})
+    .catch((err) => {console.log(err);})
 } else if (program.kill) {
   runner.kill()
     .then(function (value) {console.log(value);})
