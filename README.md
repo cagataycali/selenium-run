@@ -1,3 +1,16 @@
+# CLI :thumbsup:
+```
+npm i -g selenium-run
+```
+
+# Usage
+```
+# Run selenium
+selenium -r
+# Kill selenium
+selenium -k
+```
+
 # Programmatical :thumbsup:
 ```
 npm i --save selenium-run
@@ -16,17 +29,7 @@ runner.kill()
 
 ```
 
-# CLI :thumbsup:
-```
-npm i -g selenium-run
-```
 
-# Usage
-```
-# Run selenium
-selenium -r
-# Kill selenium
-```
 
 Maintenance & Development [Çağatay Çalı](http://github.com/cagataycali)
 
