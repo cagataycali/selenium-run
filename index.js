@@ -3,6 +3,7 @@ var E = require('3x3c');
 var background = require('background-process');
 var async = require('async');
 
+console.log(seleniumServer.path);
 module.exports = {
   kill: function kill() {
     return new Promise(function(resolve, reject) {
