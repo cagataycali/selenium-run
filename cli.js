@@ -7,7 +7,7 @@ program
 .option('-k, --kill', 'Kill selenium')
 .parse(process.argv);
 
-if (program.options.run) {
+if (program.run) {
   runner.run()
     .then(function (value) {console.log(value);})
     .catch(function (error) {console.log(error);})
