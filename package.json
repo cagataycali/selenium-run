@@ -4,7 +4,9 @@
   "description": "Run or kill selenium headless easily",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "bin": {
     "selenium": "./cli.js"
@@ -28,6 +30,8 @@
     "async": "^2.0.1",
     "background-process": "^0.1.0",
     "commander": "^2.9.0",
-    "selenium-server": "^2.53.1"
-  }
+    "selenium-server": "^2.53.1",
+    "snyk": "^1.192.3"
+  },
+  "snyk": true
 }
